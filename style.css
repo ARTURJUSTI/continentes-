@@ -1,0 +1,79 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Container principal */
+.container {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Título principal */
+h1 {
+    text-align: center;
+    color: #333399;
+    margin-bottom: 20px;
+}
+
+/* Lista de continentes */
+.continentes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.continente {
+    background-color: #e0e7ff;
+    padding: 15px;
+    margin: 10px;
+    width: 200px;
+    text-align: center;
+    border-radius: 8px;
+    transition: transform 0.3s, background-color 0.3s;
+}
+
+.continente:hover {
+    transform: scale(1.05);
+    background-color: #c7d2fe;
+}
+
+/* Botões */
+button {
+    background-color: #333399;
+    color: #ffffff;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #4f46e5;
+}
+
+/* Estilo dos links */
+a {
+    text-decoration: none;
+    color: #333399;
+}
+
+a:hover {
+    color: #4f46e5;
+}
